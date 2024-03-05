@@ -17,7 +17,7 @@ jobs:
       uses: github/issue-metrics@v2
       env:
         GH_TOKEN: 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
-        SEARCH_QUERY: 'repo:surge-synthesizer/surge is:issue created:2018-09-01..2023-09-31 -reason:"not planned"'
+        SEARCH_QUERY: 'repo:surge-synthesizer/surge is:issue created:2018-09-01..2022-12-31 -reason:"not planned"'
 
     - name: Create issue
       uses: peter-evans/create-issue-from-file@v4
