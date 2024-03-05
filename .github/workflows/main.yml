@@ -17,7 +17,7 @@ jobs:
       uses: github/issue-metrics@v2
       env:
         GH_TOKEN: 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
-        SEARCH_QUERY: 'repo:Uberton/Uberton is:issue -reason:"not planned"'
+        SEARCH_QUERY: 'repo:utokusa/OS-251 is:issue -reason:"not planned"'
 
     - name: Create issue
       uses: peter-evans/create-issue-from-file@v4
