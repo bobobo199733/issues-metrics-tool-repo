@@ -17,12 +17,12 @@ jobs:
       uses: github/issue-metrics@v2
       env:
         GH_TOKEN: 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
-        SEARCH_QUERY: 'repo:surge-synthesizer/surge is:issue created:2019-03-01..2021-01-14 -reason:"not planned"'
+        SEARCH_QUERY: 'repo:surge-synthesizer/surge is:issue created:2019-03-09..2020-07-18 -reason:"not planned"'
 
     - name: Create issue
       uses: peter-evans/create-issue-from-file@v4
       with:
-        title: Monthly issue metrics report - page 7 to 8
+        title: Monthly issue metrics report
         token: ${{secrets.GH_TOKEN}}
         content-filepath: ./issue_metrics.md
         assignees: bobobo199733
