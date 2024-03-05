@@ -23,6 +23,6 @@ jobs:
       uses: peter-evans/create-issue-from-file@v4
       with:
         title: Monthly issue metrics report
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.THESIS_SECRET }}
         content-filepath: ./issue_metrics.md
-        assignees: <YOUR_GITHUB_HANDLE_HERE>
+        assignees: bobobo199733
