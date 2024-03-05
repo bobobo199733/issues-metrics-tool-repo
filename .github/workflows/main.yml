@@ -16,7 +16,7 @@ jobs:
     - name: Run issue-metrics tool
       uses: github/issue-metrics@v2
       env:
-        GH_TOKEN: ${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}
+        GH_TOKEN: ${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}
         SEARCH_QUERY: 'repo:klknn/kdr is:issue created:2022-09-01..2022-12-31 -reason:"not planned"'
 
     - name: Create issue
