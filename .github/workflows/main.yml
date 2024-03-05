@@ -23,6 +23,6 @@ jobs:
       uses: peter-evans/create-issue-from-file@v4
       with:
         title: Monthly issue metrics report
-        token: ${secrets.THESIS_SECRET}
+        token: ${secrets.GH_TOKEN}
         content-filepath: ./issue_metrics.md
         assignees: bobobo199733
