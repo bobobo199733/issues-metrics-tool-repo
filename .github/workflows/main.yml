@@ -17,7 +17,7 @@ jobs:
       uses: github/issue-metrics@v2
       env:
         GH_TOKEN: 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
-        SEARCH_QUERY: 'repo:asb2m10/dexed is:issue created:2014-09-01..2023-09-26 -reason:"not planned"'
+        SEARCH_QUERY: 'repo:DISTRHO/Cardinal is:issue created:2021-09-01..2023-09-26 -reason:"not planned"'
 
     - name: Create issue
       uses: peter-evans/create-issue-from-file@v4
